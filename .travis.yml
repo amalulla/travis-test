@@ -1,5 +1,18 @@
-language: java
+sudo: required
+
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - gcc-5
+    - g++-5
+    - cpp-5 
+
+before_install:
+    - sudo apt-get install libsdl2-dev
 
 script:
-  - javac Hello.java
-  - java Hello
+  - 
+#  - javac Hello.java
+#  - java Hello
