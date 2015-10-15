@@ -4,6 +4,7 @@ addons:
   apt:
     sources:
     - ubuntu-toolchain-r-test
+    - ubuntu-sdk-team
     packages:
     - libqt5webkit5-dev
     - qtdeclarative5-dev
