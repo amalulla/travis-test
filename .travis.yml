@@ -1,18 +1,15 @@
-sudo: required
+sudo: false
 
 addons:
   apt:
     sources:
     - ubuntu-toolchain-r-test
     packages:
-    - gcc-5
-    - g++-5
-    - cpp-5 
+    - libqt5webkit5-dev
+    - qtdeclarative5-dev
 
-before_install:
-    - sudo apt-get install libsdl2-dev
 
 script:
-  - 
+  - echo hello
 #  - javac Hello.java
 #  - java Hello
