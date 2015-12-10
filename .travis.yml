@@ -2,8 +2,8 @@ sudo: false
 
 addons:
   apt:
-    ##sources:
-    #- ubuntu-sdk-team
+    sources:
+    - ubuntu-sdk-team
     packages:
     - libxmlrpc-core-c3-dev
     - libxmlrpc-c++8v5
