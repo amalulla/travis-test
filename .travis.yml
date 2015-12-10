@@ -3,7 +3,8 @@ sudo: false
 addons:
   apt:
     sources:
-    - ubuntu-sdk-team
+    - precise-security
+    - main 
     packages:
     - libxmlrpc-core-c3-dev
     - libxmlrpc-c++8v5
