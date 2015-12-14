@@ -1,9 +1,7 @@
-sudo: false
+sudo: required
 
-addons:
-  apt:
-    packages:
-    - libxmlrpc-core-c3
+before_install:
+  - sudo apt-get update
 
 
 
