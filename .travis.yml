@@ -5,5 +5,3 @@ script:
   - echo hello
 #  - javac Hello.java
 #  - java Hello
-
-amalulla-travis-test
