@@ -1,12 +1,9 @@
-sudo: required
-group: legacy
-
-before_install:
-  - sudo apt-get update
-
-
+sudo: false
+language: generic
 
 script:
   - echo hello
 #  - javac Hello.java
 #  - java Hello
+
+amalulla-travis-test
