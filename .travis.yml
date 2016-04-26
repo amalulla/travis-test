@@ -1,5 +1,7 @@
-language: java
+sudo: false
+language: generic
 
 script:
-  - javac Hello.java
-  - java Hello
+  - echo hello
+#  - javac Hello.java
+#  - java Hello
